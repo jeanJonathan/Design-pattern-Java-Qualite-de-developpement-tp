@@ -1,0 +1,56 @@
+
+public class Point extends GraphiqueSimple {
+	private int ligne,colonne;
+	char motif;
+	public Point(int x,int y,char unMotif) {
+		unMotif='o';
+		ligne=x;
+		colonne=y;
+	}
+	void definir(int x,int y) {}
+	
+	public int getLigne() {
+		return ligne;
+	}
+	public void setLigne(int ligne) {
+		this.ligne = ligne;
+	}
+	public int getColonne() {
+		return colonne;
+	}
+	public void setColonne(int colonne) {
+		this.colonne = colonne;
+	}
+	public char getMotif() {
+		return motif;
+	}
+	public void setMotif(char motif) {
+		this.motif = motif;
+	}
+	public void dessiner(boolean estDessinable) {
+		
+	}
+	public void deplacerDe(int x, int y) {
+		// TODO Auto-generated method stub
+		
+	}
+	protected void dessiner(boolean marquer) {
+		//
+	}
+	@Override
+	public boolean ajouter(Graphique unGraphique) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	@Override
+	public boolean supprimer(Graphique unGraphique) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	@Override
+	public boolean existeGraphique(Graphique unGraphique) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+}

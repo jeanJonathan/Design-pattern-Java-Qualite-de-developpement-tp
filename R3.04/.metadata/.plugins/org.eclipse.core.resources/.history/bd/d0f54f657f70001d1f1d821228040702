@@ -1,0 +1,9 @@
+
+public abstract class Observable {
+
+	public Observable() {
+		// TODO Auto-generated constructor stub
+	}
+	List<Observateur> mesObservateurs = new ArrayList<Observateur>();
+
+}

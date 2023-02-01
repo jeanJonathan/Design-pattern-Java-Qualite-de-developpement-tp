@@ -1,0 +1,12 @@
+
+public class ObservateurBinaire extends Observateur{
+	
+	public ObservateurBinaire(Observable unObservable) {
+		this.observable = unObservable;
+		this.observable.ajouterObservateur(this);
+	}
+
+	public void reagir() {
+		System.out.println("Binaire = "+Integer.toBinaryString(this.observable.getValeurObservee()));	
+	}
+}

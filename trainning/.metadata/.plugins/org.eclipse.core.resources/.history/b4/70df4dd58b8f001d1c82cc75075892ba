@@ -1,0 +1,10 @@
+
+public class TemplateClass {
+
+	public TemplateClass() {
+		// TODO Auto-generated constructor stub
+	}
+	public int templateMethode() {
+		
+	}
+}

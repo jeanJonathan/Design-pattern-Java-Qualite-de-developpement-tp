@@ -1,0 +1,5 @@
+
+public abstract class Observateur {
+	protected Observable observable;
+	public abstract void reagir();
+}

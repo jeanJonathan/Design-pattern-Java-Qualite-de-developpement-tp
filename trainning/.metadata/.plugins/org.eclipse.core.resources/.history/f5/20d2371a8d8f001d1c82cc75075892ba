@@ -1,0 +1,20 @@
+
+public class TemplateImp1 extends TemplateClass{
+
+	public TemplateImp1() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public int etape1() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int etape2() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,0 +1,40 @@
+package td4;
+
+public class ArticleSolde extends Article {
+
+	public ArticleSolde() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+
+	public int getRemise() {
+		return remise;
+	}
+
+	public void setRemise(int remise) {
+		this.remise = remise;
+	}
+	public int getSolde() {
+		return solde;
+	}
+	public void setSolde(int remise) {
+		solde=remise*10;
+	}
+	
+	public void setPrix(int price) {
+		prix=price-price*remise;
+	}
+	public int getPrix() {
+		return prix-prix*remise;
+	}
+	
+	private int solde;
+	private int remise;
+	
+
+}

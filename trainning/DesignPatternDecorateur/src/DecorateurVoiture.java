@@ -1,0 +1,24 @@
+import java.util.HashSet;
+import java.util.Set;
+
+public abstract class DecorateurVoiture extends Voiture {
+
+	// Tres important de declarer ce pointeur vers Voiture
+	protected Voiture voiture;
+	
+	//Set<Voiture> unComposantDeVoiture=new HashSet<Voiture>();
+	
+	public Voiture getVoiture() {
+		return voiture;
+	}
+	public void setVoiture(Voiture voiture) {
+		this.voiture = voiture;
+	}
+	/*
+	public abstract String getLibelle();
+	public abstract void setLibelle(String lib);
+	public abstract int getPrix();
+	public abstract void setPrix(int price);
+	public abstract String toString();
+	*/	
+}

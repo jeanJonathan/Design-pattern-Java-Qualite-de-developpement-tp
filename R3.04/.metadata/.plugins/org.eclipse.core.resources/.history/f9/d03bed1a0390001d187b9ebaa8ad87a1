@@ -1,0 +1,7 @@
+
+public class Adaptation {
+	public void operationAdaptatee() {
+		System.out.println("Je suis l'operation Adaptatee")
+	}
+
+}

@@ -1,0 +1,8 @@
+
+public class DecorateurB_DeComposant {
+
+	public DecorateurB_DeComposant() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

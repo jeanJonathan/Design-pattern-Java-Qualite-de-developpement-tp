@@ -1,0 +1,13 @@
+
+public class DecorateurAvecChampignons extends DecorateurDePizza {
+
+	public DecorateurAvecChampignons(Pizza unePizza) {
+		super(unePizza);
+	}
+
+	public void operation() {
+		System.out.println("% Predecoration B %");
+		getPizza().operation();
+		System.out.println("% PostDecoration B %");
+	}
+}

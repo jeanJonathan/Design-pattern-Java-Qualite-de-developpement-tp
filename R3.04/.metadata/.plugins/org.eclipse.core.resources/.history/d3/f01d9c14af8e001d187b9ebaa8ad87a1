@@ -1,0 +1,8 @@
+
+public class ComposantDeBase implements IComposant {
+
+	public ComposantDeBase() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

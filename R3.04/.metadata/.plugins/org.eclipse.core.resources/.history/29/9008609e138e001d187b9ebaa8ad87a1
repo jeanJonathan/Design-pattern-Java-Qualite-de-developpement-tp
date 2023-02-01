@@ -1,0 +1,10 @@
+
+public interface ServeurDeChat {
+
+	public ServeurDeChat() {
+		// TODO Auto-generated constructor stub
+	}
+	public abstract void envoyerMessageA(String message,Utilisateurs utilisatuer);
+	public abstract void recevoirMessageDe(String message,Utilisateurs utilisatuer);
+
+}

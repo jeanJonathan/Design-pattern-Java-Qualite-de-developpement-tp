@@ -1,0 +1,14 @@
+
+public class ComposantDePizza implements Pizza {
+
+	public ComposantDePizza() {
+		
+	}
+	private String composant;
+
+	public String toString() {
+		return "Pizza de base : Tomate - Fromage";
+	}
+
+
+}

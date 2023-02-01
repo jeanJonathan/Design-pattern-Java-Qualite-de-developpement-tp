@@ -1,0 +1,8 @@
+
+public class Date {
+	int annee;
+	int mois;
+	int jour;
+	
+	public Date();
+}

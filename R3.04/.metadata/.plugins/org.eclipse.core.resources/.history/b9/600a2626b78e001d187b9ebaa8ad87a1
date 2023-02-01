@@ -1,0 +1,12 @@
+
+public class DecorateurB_DeComposant extends DecorateurDeComposant {
+
+	public DecorateurB_DeComposant(IComposant unComposant) {
+		super(unComposant);
+	}
+
+	public void operation() {
+
+	}
+
+}

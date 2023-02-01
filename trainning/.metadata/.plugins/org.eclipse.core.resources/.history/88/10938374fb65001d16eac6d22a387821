@@ -1,0 +1,12 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Point unPoint=new Point(1,2,'o');
+		Point unPoint=new Point(2,1,'o');
+		Point unPoint=new Point(2,2,'o');
+		
+	}
+
+}

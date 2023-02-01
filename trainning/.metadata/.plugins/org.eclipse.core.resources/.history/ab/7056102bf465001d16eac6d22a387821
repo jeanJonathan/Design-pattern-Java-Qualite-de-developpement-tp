@@ -1,0 +1,44 @@
+import java.util.HashSet;
+import java.util.Set;
+
+public class GraphiqueComposee extends Graphique {
+
+	private Set<Graphique> enfant = new HashSet<Graphique>();
+	@Override
+	public void afficher() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void effacer() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deplacerDe(int x, int y) {
+		// TODO Auto-generated method stub
+		
+	}
+	public boolean ajouter(Graphique unGraphique) {
+		return enfant.add(unGraphique);}
+	public boolean supprimer(Graphique unGraphique) {
+		return enfant.remove(unGraphique);}
+	
+	public boolean estComposee() {
+		if(enfant !=null) {
+		return true;
+		}
+	return false;
+	}
+
+	@Override
+	public boolean existe(Graphique unGraphique) {
+		// TODO Auto-generated method stub
+		if(enfant !=null) {return true;}
+		return false;
+	}
+
+	
+}

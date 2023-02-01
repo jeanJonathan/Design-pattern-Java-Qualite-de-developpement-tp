@@ -1,0 +1,16 @@
+
+public abstract class DecorateurDePizza implements IComposant {
+
+	private IComposant composantDecorer;
+	
+	public DecorateurDePizza(IComposant unComposant) {
+		this.composantDecorer = unComposant;
+	}
+	public void setComposantDecorer(IComposant unComposant) {
+		this.composantDecorer = unComposant;
+	}
+	public IComposant getComposantDecorer() {
+		return composantDecorer;
+	}
+
+}

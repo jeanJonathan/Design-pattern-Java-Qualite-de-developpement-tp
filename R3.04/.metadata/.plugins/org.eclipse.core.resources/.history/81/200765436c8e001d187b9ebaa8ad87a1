@@ -1,0 +1,22 @@
+
+public class Utilisateur extends Utilisateurs{
+
+
+	public Utilisateur(ServeurDeChat unServeurDeChat) {
+		super(unServeurDeChat);
+	}
+
+	public void recevoirMessage(String message,Utilisateur auteur) {
+		System.out.println("L'utilisateur a recu de la part de "+auteur.getNom() +"le message suivant: "+message);
+	}	
+	
+	private String name;
+	public void setNom(String nom) {
+		name = nom;
+	}
+	public String getNom() {
+		return name;
+	}
+
+}
+ 

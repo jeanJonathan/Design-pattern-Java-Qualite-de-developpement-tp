@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Observable {
+	private List<Observateur> observateur = new ArrayList<>();
+	private int etat;
+	public int getEtat() {
+		return etat;
+	}
+	public void setEtat(int unEtat) {
+		this.etat = unEtat;
+	}
+	public void ajouterObservateur(Observateur unObservateur) {
+		observateur.add(unObservateur);
+	}
+	public void supprimerObservateur(Observateur unObservateur) {
+		observateur.remove(unObservateur);
+	}
+	public void notifierObservateur() {
+		observateur.forEach(Observateur :: reagir); // On appel la methode reagir directement
+	}
+	
+}

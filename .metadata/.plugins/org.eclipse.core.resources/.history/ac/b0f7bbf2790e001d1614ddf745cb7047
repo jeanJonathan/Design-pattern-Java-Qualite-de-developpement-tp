@@ -1,0 +1,17 @@
+package td4;
+
+import java.util.Map;
+
+public class GestionArticle extends Article {
+
+	public GestionArticle() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	private Map<?, ?> map;
+
+}

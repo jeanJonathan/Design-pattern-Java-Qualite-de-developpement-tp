@@ -1,0 +1,18 @@
+
+public class Client {
+
+	public Client() {
+		// TODO Auto-generated constructor stub
+	}
+	public static void main(String[] args) {
+		TemplateClass unTemplate = new TemplateImp1();
+		// Suite a cette instanciation l'objet unTemplate est pret a appele  templateMethode() 
+		System.out.println(unTemplate.templateMethode());
+		
+		TemplateClass unTemplate2 = new TemplateImp2();
+		// Suite a cette instanciation l'objet unTemplate est pret a appele  templateMethode() 
+		System.out.println(unTemplate2.templateMethode());
+		
+	}
+
+}

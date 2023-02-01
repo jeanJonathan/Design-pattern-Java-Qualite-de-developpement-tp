@@ -1,0 +1,16 @@
+
+public abstract class DecorateurDePizza implements Pizza {
+
+	private Pizza pizzaDecorer;
+	
+	public DecorateurDePizza(Pizza unComposant) {
+		this.pizzaDecorer= unComposant;
+	}
+	public void setComposantDecorer(Pizza unComposant) {
+		this.pizzaDecorer = unComposant;
+	}
+	public Pizza getPizzaDecorer() {
+		return pizzaDecorer;
+	}
+
+}

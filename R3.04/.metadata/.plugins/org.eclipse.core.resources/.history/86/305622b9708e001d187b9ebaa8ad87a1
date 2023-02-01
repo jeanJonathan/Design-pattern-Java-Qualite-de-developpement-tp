@@ -1,0 +1,22 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		ServeurDeChat serveurDeChat = new UnServeurDeChat();
+
+		Utilisateur utilisateur1 = new Utilisateur(serveurDeChat);
+		Utilisateur utilisateur2 = new Utilisateur(serveurDeChat);
+
+		serveurDeChat.ajouterUtilisateur(utilisateur1);
+		serveurDeChat.ajouterUtilisateur(utilisateur2);
+		utilisateur1.setNom("Samuel");
+		utilisateur2.setNom("JJ");
+
+		utilisateur1.envoyerMessage("Bonjour mon collegue");
+		utilisateur2.envoyerMessage("Bonjour mon collegue comment ca vas");
+	}
+	
+	/*Ca ne marche pas correctement parce qu'on a une seule classe acteurs*/
+
+}

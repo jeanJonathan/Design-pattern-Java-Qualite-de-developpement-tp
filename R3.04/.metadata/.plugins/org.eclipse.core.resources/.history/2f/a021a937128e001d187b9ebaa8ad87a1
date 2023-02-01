@@ -1,0 +1,8 @@
+
+public abstract class ServeurDeChat {
+
+	public ServeurDeChat() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

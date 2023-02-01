@@ -1,0 +1,8 @@
+
+public class InterfaceDePizza {
+
+	public InterfaceDePizza() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

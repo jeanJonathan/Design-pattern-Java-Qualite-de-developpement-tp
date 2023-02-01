@@ -1,0 +1,16 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Pizza unePizzaAvecOlive = new DecorateurAvecOlive(new ComposantDePizza());
+		System.out.println(unePizzaAvecOlive.toString());
+		
+		Pizza unePizzaAvecChampignon = new DecorateurAvecChampignons(new ComposantDePizza());
+		System.out.println(unePizzaAvecChampignon.toString());	
+		
+		/*On peut donc remarquer que pour creer une pizza simple*/
+		Pizza unePizzaSmple = new ComposantDePizza();
+		unePizzaSimple.toString();
+	}
+
+}

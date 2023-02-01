@@ -1,0 +1,8 @@
+
+public class Utilisateur extends Utilisateurs{
+
+	public Utilisateur() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

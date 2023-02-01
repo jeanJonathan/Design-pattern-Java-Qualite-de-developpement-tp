@@ -1,0 +1,8 @@
+
+public class ObservableMeteo {
+
+	public ObservableMeteo() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

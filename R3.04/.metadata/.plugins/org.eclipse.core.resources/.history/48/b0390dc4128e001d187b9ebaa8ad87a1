@@ -1,0 +1,9 @@
+
+public class Utilisateurs {
+
+	public Utilisateurs() {
+		// TODO Auto-generated constructor stub
+	}
+	ServeurDeChat unServeurDeChat;
+	
+}

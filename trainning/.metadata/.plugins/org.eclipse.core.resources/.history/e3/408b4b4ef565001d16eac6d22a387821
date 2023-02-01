@@ -1,0 +1,12 @@
+import java.*;
+
+public class Terninal {
+	public static void clear() {
+		System.out.println("Ecran effacer");
+	}
+	public static void charLigneColonne(int l,int c,char motif) {
+		System.out.println("Ecriture du motif en ligne l et colonne c");
+		
+	}
+
+}

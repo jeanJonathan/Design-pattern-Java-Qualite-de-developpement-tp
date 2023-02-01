@@ -1,0 +1,13 @@
+
+public class Adaptateur implements ICible {
+	
+	private Adaptation adaptation;
+	public void operation() {
+		System.out.println("Je suis l'adapteur et j'appel l'operation Adaptation");
+		adaptation.operationAdaptatee();
+	}
+	public Adaptateur(Adaptation uneAdaptation) {
+		adaptation = uneAdaptation;
+	}
+
+}

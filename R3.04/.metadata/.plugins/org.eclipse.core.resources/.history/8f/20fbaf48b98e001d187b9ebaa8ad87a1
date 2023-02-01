@@ -1,0 +1,14 @@
+
+public class DecorateurA_DeComposant extends DecorateurDePizza {
+
+	public DecorateurA_DeComposant(Pizza unComposant) {
+		super(unComposant);
+	}
+
+	public void operation() {
+		System.out.println("# Predecoration A #");
+		getPizza().operation();
+		System.out.println("# PostDecoration A '");
+	}
+
+}

@@ -1,0 +1,21 @@
+
+public class Client {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// On l'appel racine car elle contient tout les elements
+		Composee composee1=new Composee("Composee1");
+		Composee composee2=new Composee("Composee2");
+		composee1.ajouterComposant(composee2); // Le composee 2 devient un sous composite du composee1
+		
+		composee1.ajouterComposant(new Simple("Fichier 11"));
+		composee1.ajouterComposant(new Simple("Fichier 12"));
+		composee1.ajouterComposant(new Simple("Fichier 13"));
+		
+		//composee2.ajouterComposant(new Simple("Fichier 21"));
+		//composee2.ajouterComposant(new Simple("Fichier 22"));
+		
+		//Pour appliquer l'element a tout les composants, j'appel alors 
+		composee1.operation();
+	}
+}

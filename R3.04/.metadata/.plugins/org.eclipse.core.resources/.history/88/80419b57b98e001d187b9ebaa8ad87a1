@@ -1,0 +1,9 @@
+
+public class DecorateurAvecOlivePizza extends DecorateurDePizza {
+
+	public DecorateurA_DePizza(Pizza unComposant) {
+		super(unComposant);
+	}
+
+
+}

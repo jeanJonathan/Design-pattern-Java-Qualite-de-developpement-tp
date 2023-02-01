@@ -1,0 +1,26 @@
+package td4;
+
+public class ArticleDeuxiemeDeMarque extends ArticleSolde {
+
+	public ArticleDeuxiemeDeMarque() {
+		// TODO Auto-generated constructor stub
+	}
+	public ArticleDeuxiemeDeMarque(String lib,String code,double price,double sold,double remSup) {
+		libelle=lib;
+		codeBarre=code;
+		prix=price;
+		solde=sold;
+		remiseSup=remSup;
+		
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	public double getPrix() {
+		return super.getPrix()*remiseSup;
+	}
+	private double remiseSup;
+}

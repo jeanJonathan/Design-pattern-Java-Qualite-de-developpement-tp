@@ -1,0 +1,17 @@
+
+public class Utilisateur extends Utilisateurs{
+
+	public Utilisateur() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void recevoirMessage(String message) {
+		System.out.println("L'utilisateur a recu le message suivant: "+message);
+	
+	private String nom;
+	public String getNom() {
+		return nom;
+	}
+	
+	
+}

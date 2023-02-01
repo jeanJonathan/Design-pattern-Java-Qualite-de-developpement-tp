@@ -1,0 +1,14 @@
+
+public abstract class Utilisateurs {
+
+	public Utilisateurs(ServeurDeChat unServeurDeChat) {
+		this.serveurDeChat = unServeurDeChat;
+	}
+	private ServeurDeChat serveurDeChat;
+	
+	public void envoyerMessage(String message) {
+		serveurDeChat.diffuserMessageDe(message, this);
+	}
+	public abstract void recevoirMessage(String message,Utilisateurs auteur);
+	
+}

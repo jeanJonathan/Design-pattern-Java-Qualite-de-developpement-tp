@@ -1,0 +1,14 @@
+
+public class Utilisateur extends Utilisateurs{
+
+	public Utilisateur() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void recevoirMessage(String message) {
+		System.out.println("L'utilisateur a recu : "+message);
+	}
+	
+	
+}

@@ -1,0 +1,16 @@
+
+public abstract class DecorateurDeComposant implements IComposant {
+
+	private IComposant composantDecorer;
+	
+	public DecorateurDeComposant(IComposant unComposant) {
+		composantDecorer = unComposant;
+	}
+	public void setComposantDecorer(IComposant unComposant) {
+		composantDecorer = unComposant;
+	}
+	public IComposant getComposantDecorer() {
+		return composantDecorer;
+	}
+
+}

@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Observable unObservable = new Observable();
+		Observateur unobservateurBinaire= new ObservateurBinaire(unObservable);
+		Observateur unObservateurOctal = new ObservateurOctal(unObservable);
+		Observateur unObservateurHex= new ObservateurHexadecimal(unObservable);
+	
+		while(true) {
+			System.out.println("Saisir un nombre a convertir");
+			Scanner scanner = new Scanner(System.in);
+			int numero = scanner.nextInt();
+			/*A chaque fois qu'on change l'etat du l'observable*/
+			unObservable.setEtat(numero);
+		}
+	}
+
+}

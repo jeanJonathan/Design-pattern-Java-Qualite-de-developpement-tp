@@ -1,0 +1,9 @@
+
+public class Adaptateur implements ICible {
+	
+	Adaptation adaptation;
+	public void operation() {
+		
+	}
+
+}

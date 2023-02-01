@@ -1,0 +1,18 @@
+
+public class ObservableMeteo {
+
+	public ObservableMeteo() {
+		// TODO Auto-generated constructor stub
+	}
+	public String libelle;
+	public String dateHeure;
+	public double temperateur;
+	public double pression;
+	
+	public void setValeurObservee(String laDateHeure, double laTemperature,double laPression) {
+		this.dateHeure=laDateHeure;
+		this.temperateur=laTemperature;
+		
+		
+	}
+}

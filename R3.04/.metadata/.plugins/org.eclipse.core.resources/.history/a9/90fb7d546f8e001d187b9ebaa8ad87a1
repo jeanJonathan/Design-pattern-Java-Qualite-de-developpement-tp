@@ -1,0 +1,32 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class UnServeurDeChat implements ServeurDeChat {
+
+	public UnServeurDeChat() {
+		// TODO Auto-generated constructor stub
+	}
+	private List<Utilisateur> utilisateurs = new ArrayList<>();
+
+	public void diffuserMessageDe(String message,Utilisateurs unUtilisateur) {
+		//Pour chaque utilisateur concret de la liste des utilisateur
+		for(Utilisateurs utilisateur : utilisateurs) {
+			// Si l'utilisateur dans la liste est different de l'utiliateur destinataire 
+			if(!utilisateur.equals(unUtilisateur)) {
+				//Alors ce utilisateur doit recevoir le messages
+				utilisateur.recevoirMessage(message,unUtilisateur); /*Important !*/
+			}
+			/*Prof: C'est pourquoi dans le main on doit toujours ajouter les utilisateurs avant d'envoyer le message*/
+		}
+	}	
+	/*Pour ajouter un utilisateur */
+	public boolean ajouterUtilisateur(Utilisateur unUtilisateur) {
+		return utilisateurs.add(unUtilisateur);
+	}
+	public boolean retirerUtilisateur(Utilisateur unUtilisateur) {
+		return utilisateurs.remove(unUtilisateur);
+	}
+	public boolean existeUtilisateur(Utilisateur unUtilisateur) {
+		return utilisateurs.contains(unUtilisateur);
+	}
+}

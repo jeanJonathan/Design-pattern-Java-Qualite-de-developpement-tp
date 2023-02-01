@@ -1,0 +1,8 @@
+
+public interface IComposant {
+
+	public IComposant() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

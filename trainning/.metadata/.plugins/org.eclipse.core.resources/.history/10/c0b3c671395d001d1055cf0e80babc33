@@ -1,0 +1,13 @@
+
+public class ObservateurOctal extends Observateur{
+
+	ObservableConcret observableConcret;
+	public ObservateurOctal(Observable unObservable) {
+		this.observable = unObservable;
+		this.observable.ajouterObservateur(this);
+	}
+
+	public void reagir() {
+		System.out.println("Octal = "+Integer.toOctalString(this.observable.getEtat()));	
+	}
+}

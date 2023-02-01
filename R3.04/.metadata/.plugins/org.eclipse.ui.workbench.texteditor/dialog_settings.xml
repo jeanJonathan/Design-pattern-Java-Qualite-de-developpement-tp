@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value="Pizza"/>
+		<list key="findhistory">
+			<item value="IComposant"/>
+			<item value="PreparationComposee2"/>
+			<item value="PreparationSimple2"/>
+			<item value="TesteComposite2"/>
+			<item value="PreparationDeCuisine2"/>
+			<item value="PreparationSimple1"/>
+			<item value="PreparationDeCuisine1"/>
+			<item value="PreparationComposee1"/>
+			<item value="1"/>
+		</list>
+		<list key="replacehistory">
+			<item value="Pizza"/>
+			<item value="PreparationComposee"/>
+			<item value="PreparationSimple"/>
+			<item value="TesteComposite"/>
+			<item value="PreparationDeCuisine"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="385"/>
+		<item key="DIALOG_Y_ORIGIN" value="566"/>
+		<item key="DIALOG_WIDTH" value="414"/>
+		<item key="DIALOG_HEIGHT" value="454"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

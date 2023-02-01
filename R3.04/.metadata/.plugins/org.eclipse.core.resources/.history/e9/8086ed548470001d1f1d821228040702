@@ -1,0 +1,28 @@
+
+public class ObservateurMeteo {
+
+	public ObservateurMeteo() {
+		// TODO Auto-generated constructor stub
+	}
+	public ObservableMeteo observableMeteo;
+	public String libelle;
+	public String dateHeureLocale;
+	public String tempLocale;
+	public double pressionLocale;
+	
+	public ObservateurMeteo(ObservableMeteo unObservable) {
+		this.observableMeteo = unObservable;
+		this.observableMeteo.ajouterObservateur(this);
+		}
+	public void reagir() {
+		
+	}
+	//Ma methode pour approfondit le test 
+	public static boolean etatChanger(int valeurObservee) {
+		if(observable.getValeurObservee()==valeurObservee) {
+			return true;
+			}
+		return false;
+	}
+
+}

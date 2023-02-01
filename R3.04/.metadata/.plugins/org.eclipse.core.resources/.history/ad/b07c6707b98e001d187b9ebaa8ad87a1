@@ -1,0 +1,12 @@
+
+public class ComposantDeBase implements Pizza {
+
+	public ComposantDeBase() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void operation() {
+		System.out.println("Operation de base ");
+	}
+
+}

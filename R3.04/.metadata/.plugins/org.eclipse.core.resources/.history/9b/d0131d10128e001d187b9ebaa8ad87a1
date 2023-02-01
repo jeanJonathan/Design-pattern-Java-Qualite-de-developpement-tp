@@ -1,0 +1,8 @@
+
+public class ServeurDeChat {
+
+	public ServeurDeChat() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

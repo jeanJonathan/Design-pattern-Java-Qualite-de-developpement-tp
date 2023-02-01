@@ -1,0 +1,7 @@
+import java.*;
+public class Terninal {
+	public static void clear() {
+		System.out.println();
+	}
+
+}

@@ -1,0 +1,22 @@
+
+public class Point extends GraphiqueSimple {
+	private int ligne,colonne;
+	char motif;
+	public Point(int x,int y,char unMotif) {
+		unMotif='o';
+		ligne=x;
+		colonne=y;
+	}
+	void definir(int x,int y) {}
+	public void dessiner(boolean estDessinable) {
+		
+	}
+	public void deplacerDe(int x, int y) {
+		// TODO Auto-generated method stub
+		
+	}
+	protected void dessiner(boolean marquer) {
+		//
+	}
+	
+}

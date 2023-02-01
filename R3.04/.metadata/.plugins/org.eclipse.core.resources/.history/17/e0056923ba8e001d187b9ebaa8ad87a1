@@ -1,0 +1,6 @@
+
+public interface Pizza {
+	public String toString();
+	public static final String libelle = "";
+	
+}

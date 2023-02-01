@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.jdom.Document"/>
+    <fullyQualifiedTypeName name="java.security.KeyStore.Entry.Attribute"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.nio.file.DirectoryStream.Filter"/>
+    <fullyQualifiedTypeName name="org.jdom2.filter.Filter"/>
+    <fullyQualifiedTypeName name="org.jdom2.output.XMLOutputter"/>
+    <fullyQualifiedTypeName name="org.jdom2.input.SAXBuilder"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="org.jdom2.output.Format"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="org.jdom2.Element"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.jdom2.Document"/>
+    <fullyQualifiedTypeName name="org.jdom2.Attribute"/>
+</qualifiedTypeNameHistroy>

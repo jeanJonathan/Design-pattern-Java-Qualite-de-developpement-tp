@@ -1,0 +1,14 @@
+package td4;
+
+public class GestionArticle {
+
+	public GestionArticle() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

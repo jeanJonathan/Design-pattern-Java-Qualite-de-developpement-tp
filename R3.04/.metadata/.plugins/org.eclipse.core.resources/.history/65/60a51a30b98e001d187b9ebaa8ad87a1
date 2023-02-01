@@ -1,0 +1,15 @@
+
+public class ComposantDePizza implements Pizza {
+
+	public ComposantDePizza() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void operation() {
+		System.out.println("Operation de base ");
+	}
+	public String toString() {
+		return "";
+	}
+
+}

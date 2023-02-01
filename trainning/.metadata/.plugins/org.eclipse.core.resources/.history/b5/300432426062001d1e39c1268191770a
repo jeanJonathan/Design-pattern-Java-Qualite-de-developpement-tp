@@ -1,0 +1,12 @@
+
+public abstract class Composant {
+	protected String nom;
+	protected int niveau;
+	String getNom() {return nom;}
+	public abstract void operation();
+	public Composant(String nom) {
+		this.nom = nom;
+	}
+	
+}
+ 

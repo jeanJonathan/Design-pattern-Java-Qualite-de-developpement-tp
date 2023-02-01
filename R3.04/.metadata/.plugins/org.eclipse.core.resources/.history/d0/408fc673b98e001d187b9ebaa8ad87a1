@@ -1,0 +1,8 @@
+
+public class DecorateurAvecChampignons extends DecorateurDePizza {
+
+	public DecorateurAvecChampignons(Pizza unePizza) {
+		super(unePizza);
+	}
+
+}

@@ -1,0 +1,87 @@
+package td2;
+
+public class Ingredient {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	//0. CONSTANTES
+	//1. ATTRIBUTS
+	//1.a ATTRIBUTS de classe : non
+	//1.b ATTRIBUTS d'instance
+	private String libelle;
+	private int quantite;
+	//2. CONSTRUCTEURS complete la/les facon/s de créer un objet
+	// sans paramètre => initialise les attributs par défaut
+	public Ingredient() {
+	libelle=""; // on préfèrera setLibelle (“”);
+	quantite=0; // on préfèrera setQuantite (0);
+	}
+	// un paramètre par attribut => affecte les attributs
+	public Ingredient(String l, int q) { 
+	setLibelle (l); setQuantite (q);
+	}
+	// constructeur par recopie : affecte les même valeurs que celles de l'objet modele
+	public Ingredient (Ingredient ingredientModele) {
+	if (ingredientModele != null) {
+	setLibelle(ingredientModele.getLibelle());
+	setQuantite(ingredientModele.getQuantite());
+	}
+	else {
+	setLibelle(""); 
+	setQuantite(0);
+	}
+	}
+
+	//3. METHODES d'encapsulation
+	// encapsulation de _quantite ===========
+	public void setQuantite (int q) {
+	quantite = q;
+	}
+	public int getQuantite () {
+	return quantite;
+	}
+	// encapsulation de _libelle ===========
+	public void setLibelle (String l) {
+	libelle = l;
+	}
+	public String getLibelle () {
+	return (libelle);
+	}
+	//4. METHODES usuelles: equals, dupliquer, toString
+	// equals dit si unObjetAComparer comprend un contenu equivalent a l'objet courant
+	public boolean equals (Ingredient unObjetAComparer) {
+	boolean resultat; // le résultat doit être booléen
+	resultat = (getLibelle()==unObjetAComparer.getLibelle()
+	 &&
+	 getQuantite()==unObjetAComparer.getQuantite());
+	return resultat; // une fois établi, on retourne le résultat booléen
+	}
+	// dupliquer : solution alternative au constructeur par recopie
+	public Ingredient dupliquer() {
+	Ingredient laCopie; // déclare un pointeur
+	laCopie = new Ingredient(); // crée un objet sur lequel pointe laCopie
+	laCopie.setLibelle(getLibelle());
+	laCopie.setQuantite(getQuantite());
+	return laCopie;
+	// tout ce code équivaut à :
+	// return (new Ingredients(getLibelle(), getQuantite()));
+	}
+	// toString : produit une version String de l'objet courant
+	public String toString() {
+	String message;
+	message = "<"+getLibelle()+","+getQuantite()+">";
+	return message;
+	}
+	//5. METHODE spécifique : afficher
+	// afficher : affiche directement les valeurs des attributs de l'objet
+	public void afficher() {
+	System.out.println("je suis un ingredient "
+	 + getLibelle() + " "
+	 + getQuantite()
+	);
+	}
+	
+
+}

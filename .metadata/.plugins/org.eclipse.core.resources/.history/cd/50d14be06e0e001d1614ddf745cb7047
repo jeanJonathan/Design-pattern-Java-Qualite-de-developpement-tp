@@ -1,0 +1,40 @@
+package td4;
+
+public class Article {
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Article monArtcile=new Article("Pyjama","DJBD5",200);
+		System.out.println(monArtcile.getLibelle());
+		
+		
+	}
+	protected String libelle;
+	protected String codeBarre;
+	protected double prix;
+	
+	public Article(String lib,String code,int price) {
+		libelle=lib;
+		codeBarre=code;
+		prix=price;		
+	}
+	public String getLibelle() {
+		return libelle;
+	}
+	public double getPrix() {
+		return prix;
+	}
+	public String getCodeBarre() {
+		return codeBarre;
+	}
+	public void setLibelle(String lib) {
+		libelle=lib;
+	}
+	public void setCodeBarre(String code) {
+		codeBarre=code;
+	}
+	public void setPrix(double price) {
+		prix=price;
+	}
+}

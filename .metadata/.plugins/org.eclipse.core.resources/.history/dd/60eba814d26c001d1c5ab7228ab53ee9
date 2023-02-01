@@ -1,0 +1,31 @@
+
+public class PreparationSimple extends PreparationDeCuisine {
+
+	public PreparationSimple() {
+		// TODO Auto-generated constructor stub
+	}
+	public int getPrix() {
+		return prix;
+	}
+	@Override
+	public String getLibelle() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public void setLibelle(String libelle) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void setPrix(int price) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

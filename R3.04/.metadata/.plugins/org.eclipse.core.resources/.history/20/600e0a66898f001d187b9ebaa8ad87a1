@@ -1,0 +1,8 @@
+
+public class TraiterDate {
+	private Date date;
+	public TraiterDate(Date uneDate) {
+		date = uneDate;
+	}
+	
+}

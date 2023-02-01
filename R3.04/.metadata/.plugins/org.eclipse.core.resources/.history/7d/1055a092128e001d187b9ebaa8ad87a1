@@ -1,0 +1,10 @@
+
+public abstract class ServeurDeChat {
+
+	public ServeurDeChat() {
+		// TODO Auto-generated constructor stub
+	}
+	public abstract void envoyerMessageA(String message,Utilisateurs utilisatuer);
+	
+
+}

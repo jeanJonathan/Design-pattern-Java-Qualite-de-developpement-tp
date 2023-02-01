@@ -1,0 +1,28 @@
+package td4;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+public class Main {
+
+	public Main() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<String> list= new ArrayList<String>();
+		
+		list.add("Jean-Jonathan");
+		list.add("KOF");
+		
+		System.out.println(list);
+		
+		Map<String,Integer> ages= new HashMap<>();
+		
+		
+
+	}
+
+}

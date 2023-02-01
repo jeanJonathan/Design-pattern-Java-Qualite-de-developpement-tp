@@ -1,0 +1,8 @@
+
+public class DecorateurDeComposant implements ICompostant {
+
+	public DecorateurDeComposant() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

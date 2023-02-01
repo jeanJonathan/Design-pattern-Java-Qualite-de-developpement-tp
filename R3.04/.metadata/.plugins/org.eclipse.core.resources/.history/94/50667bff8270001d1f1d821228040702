@@ -1,0 +1,17 @@
+
+public class ObservateurMeteo {
+
+	public ObservateurMeteo() {
+		// TODO Auto-generated constructor stub
+	}
+	ObservateurMeteo observable;
+	public String libelle;
+	public String dateHeureLocale;
+	public String tempLocale;
+	public double pressionLocale;
+	
+	public void reagir() {
+		
+	}
+
+}

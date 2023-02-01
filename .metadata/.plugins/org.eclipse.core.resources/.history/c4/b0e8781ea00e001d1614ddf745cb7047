@@ -1,0 +1,48 @@
+package td4;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+public class Main {
+
+	public Main() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		
+		/********************DANS CETTE SECTION LA CLE EST LE CODE BARRE 
+		 * DONC IL DEVRAIT Y AVOIR EGALITE EN INSTANCIATION DES DEUX VARIABLE
+		 * ***********************************/
+		
+		// TODO Auto-generated method stub
+		/*
+		ArrayList<String> list= new ArrayList<String>();
+		
+		list.add("Jean-Jonathan");
+		list.add("KOF");
+		
+		System.out.println(list);
+		*/
+		/*
+		Map<String,Integer> ages= new HashMap<>();
+		ages.put("Jonathan",22);
+		ages.put("Josue",26);
+		ages.put("Joel",28);
+		ages.put("Josias",24);
+		System.out.println(ages.toString());
+		System.out.println(ages.get("Jonathan"));
+		ages.remove("Jonathan");
+		System.out.println(ages.toString());
+		*/
+		Article monArticle=new Article("Pyjama","Knjj",1000.25);
+		System.out.println(monArticle.getCodeBarre());
+		System.out.println(monArticle.getLibelle());
+		System.out.println(monArticle.getPrix());
+		
+		ArticleSolde monArticle=new Article("Pyjama","Knjj",1000.25);
+
+	}
+
+}

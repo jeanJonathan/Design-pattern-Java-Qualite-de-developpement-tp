@@ -1,0 +1,10 @@
+
+public class ObservateurMeteo extends Observateur{
+
+
+	public void reagir() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+import java.*;
+
+public class Terninal {
+	public static void clear() {
+		System.out.println("ESC");
+	}
+	public static void charLigneColonne(int l,int c,char motif) {
+		System.out.println("ESC");
+		
+	}
+
+}

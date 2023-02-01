@@ -1,0 +1,12 @@
+
+public class ObservateurHexadecimal extends Observateur{
+	
+	public ObservateurHexadecimal(Observable unObservable) {
+		this.observable = unObservable;
+		this.observable.ajouterObservateur(this);
+	}
+
+	public void reagir() {
+		System.out.println("Hexadecimal = "+Integer.toHexString(this.observable.getEtat()));	
+	} 
+}

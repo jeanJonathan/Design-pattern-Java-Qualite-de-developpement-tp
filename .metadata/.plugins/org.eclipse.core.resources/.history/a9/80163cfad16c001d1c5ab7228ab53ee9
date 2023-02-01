@@ -1,0 +1,11 @@
+
+public class PreparationSimple extends {
+
+	public PreparationSimple() {
+		// TODO Auto-generated constructor stub
+	}
+	public int getPrix() {
+		return prix;
+	}
+
+}

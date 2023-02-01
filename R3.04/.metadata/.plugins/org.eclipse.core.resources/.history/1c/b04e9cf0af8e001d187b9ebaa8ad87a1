@@ -1,0 +1,14 @@
+
+public class DecorateurA_DeComposant extends DecorateurDeComposant {
+
+	public DecorateurA_DeComposant(IComposant unComposant) {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void operation() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

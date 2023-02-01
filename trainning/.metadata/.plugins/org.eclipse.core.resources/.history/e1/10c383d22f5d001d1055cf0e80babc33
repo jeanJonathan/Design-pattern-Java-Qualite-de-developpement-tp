@@ -1,0 +1,13 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Observable unObservable = new Observable();
+		Observateur unobservateurBinaire= new ObservateurBinaire(unObservable);
+		new ObservateurOctal(unObservable);
+		new ObservateurHexadecimal(unObservable);
+		
+	}
+
+}

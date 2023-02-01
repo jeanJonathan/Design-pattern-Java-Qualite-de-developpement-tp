@@ -1,0 +1,13 @@
+
+public abstract class DecorateurDeComposant implements IComposant {
+
+	public DecorateurDeComposant() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public DecorateurDeComposant(IComposant unComposant) {
+		
+	}
+	
+
+}
