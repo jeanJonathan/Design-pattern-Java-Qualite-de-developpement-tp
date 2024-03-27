@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public abstract class Observable {
+
+	public Observable() {
+		// TODO Auto-generated constructor stub
+	}
+	List<Observateur> mesObservateurs = new ArrayList<Observateur>();
+	
+	//Methode specifiques
+	public boolean ajouteurObservateur(Observateur unObservateur) {
+		return this.mesObservateurs.add(unObservateur);
+
+	}
+	public boolean supprimerObservateur(Observateur unObservasteur) {
+		return this.mesObservateurs.remove(unObservasteur);
+	}
+	public boolean existeObservateur(Observateur unObservateur) {
+		return this.mesObservateurs.contains(unObservateur);
+	}
+	public void notifierObservateurs() {
+		this.mesObservateurs.forEach(Observateur :: reagir);// Pour appeler la methode reagir directement de chaque Observateur donc ObservateurConcret
+		
+	}
+	
+}

@@ -1,7 +1,0 @@
-
-public interface ServeurDeChat {
-
-	public abstract void envoyerMessageA(String message,Utilisateurs utilisatuer);
-	public abstract void recevoirMessageDe(String message,Utilisateurs utilisatuer);
-
-}

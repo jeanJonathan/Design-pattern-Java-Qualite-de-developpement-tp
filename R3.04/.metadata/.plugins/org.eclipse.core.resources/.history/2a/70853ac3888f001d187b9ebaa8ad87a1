@@ -1,6 +1,0 @@
-
-public class Date {
-	int annee;
-	int mois;
-	
-}

@@ -1,8 +1,0 @@
-
-public class TraiterDate {
-	Date date;
-	public TraiterDate(Date uneDate) {
-		date = uneDate;
-	}
-	
-}

@@ -1,8 +1,0 @@
-
-public class DecorateurDeComposant implements IComposant {
-
-	public DecorateurDeComposant() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

@@ -1,9 +1,0 @@
-
-public class DecorateurAvecOlive extends DecorateurDePizza {
-
-	public DecorateurAvecOlive(Pizza unComposant) {
-		super(unComposant);
-	}
-
-
-}
