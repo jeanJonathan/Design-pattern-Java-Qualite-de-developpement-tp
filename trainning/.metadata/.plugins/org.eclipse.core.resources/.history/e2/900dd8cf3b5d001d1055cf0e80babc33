@@ -1,5 +1,0 @@
-
-public abstract class Observateur {
-	//protected Observable observable; // Ce serait mieux de definir un attribut observateurConcret dans chaque ObservateurConcret cad ObservateurBinaire...
-	public abstract void reagir();
-}
